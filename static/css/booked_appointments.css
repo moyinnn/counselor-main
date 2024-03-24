@@ -1,0 +1,135 @@
+.home-section> h2{
+    margin: 40px 0 0 0;
+    text-align: center;
+    font-size: 2em;
+    padding-inline:30px ;
+}
+#main_content{
+    max-width: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+}
+#main_content hr{
+    margin-block: 10px;
+}
+
+.booked_card div{
+    width: 100%;
+    margin: 0;
+    font-weight: 600;
+    height: 100%;
+    padding: 5px;
+}
+
+.card_date{
+    font-size: 1.2em;
+    background: rgb(240, 240, 240);
+    color: rgb(63, 63, 63);
+    height: 100%;
+    font-weight: 800;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    max-width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booked_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    gap: 0px;
+    text-align: center;
+    background: #90eeda;
+    border-radius: 20px;
+}
+.booked_card p{
+    margin: 0;
+}
+.booked_type > p{
+    display: block;
+}
+.booked_name{
+    background: #137d73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.booked_time{
+    font-weight: 700 !important;
+    background: #21deb5;
+    color: #043d1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80% !important;
+    min-width: 138px;
+}
+.booked_type{
+    width: 70% !important;
+    font-weight: 700 !important;
+    color: rgb(5, 80, 49);
+    background: #90eeda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+.v_meetink_link{
+    color: rgb(10, 111, 158);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.booked_type i{
+    font-size: 1.7em;
+    padding: 10px 4px 4px 4px;
+}
+.link_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px 0 !important;
+    height: 24px !important;
+}
+.booked_type>p{
+    font-size: 0.9em;
+}
+#appointments_wrapper{
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+@media (max-width:820px) {
+    .booked_card{
+        font-size: 0.8em;
+        min-width: 500px;
+    }
+    .card_date{
+        max-width: 110px;
+    }
+}
+@media (max-width:500px) {
+    .booked_card{
+        min-width: 400px;
+    }
+    .booked_name{
+        width: 200px !important;
+    }
+    .card_date{
+        max-width: 60px;
+        font-size: 1em;
+        font-family: 900;
+    }
+    .booked_time{
+        max-width: 138px;
+    }
+}
